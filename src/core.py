@@ -177,7 +177,7 @@ class ClearAccessCore:
             "point_id": point_id,
             "point_name": point.name,
             "is_alarm": True,
-            "message": f"ТРЕВОГА: {point.name} - {reason}"
+            "message": f"ТРЕВОГА: {point.name} — {reason}"
         }
 
     def clear_sensor_alarm(self, point_id: int) -> Dict[str, Any]:
